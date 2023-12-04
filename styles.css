@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 *
 {
     margin: 0;
@@ -60,7 +61,7 @@
 .aboutus p{
     font-family: sans-serif;
     letter-spacing: 1px;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 40px;
     margin: 1vh 20vw;
     font-weight: 100;
@@ -72,6 +73,15 @@
 }
 .aboutus img{
     width: 100vw;
+}
+.abt-sec{
+    margin: 0 8vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.abt-sec p{
+    margin: 0;
+    padding: 0 4vw;
 }
 .services{
     margin: 12vh;
@@ -85,9 +95,9 @@
 .services>p{
     font-family: sans-serif;
     letter-spacing: 1px;
-    font-size: 1.08em;
+    font-size: 1em;
     line-height: 30px;
-    margin: 1vh 20vw;
+    margin: 1vh 15vw;
     font-weight: 100;
     color: #3f3f3f;
 }
@@ -126,123 +136,25 @@
     margin: 10vh 0 0 0 ;
 }
 .travel>p{
-    margin: 5vh 25vw;
+    margin: 5vh 15vw;
     font-family: sans-serif;
     letter-spacing: 1px;
-    font-size: 1.08em;
+    font-size: 1em;
     line-height: 30px;
     font-weight: 100;
     color: #3f3f3f;
 }
 
-/* carousel travel */
-.carousel-travel {
-    width: 520px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
-    border-radius: 20px;
-    margin: 100px auto 20px;
-}
-.carousel-contain {
-    width: 400px;
-    height: 250px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-.caro {
-    display: flex;
-    width: 1200px;
-    animation: sliding 12s infinite;
-}
-.caro div {
-    width: 400px;
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-}
-.caro:hover {
-    animation-play-state: paused;
-}
-.caro .image-one {
-    background-image: url("./images/travel1.jpg");
-}
-.caro .image-two {
-    background-image: url("./images/travel2.jpg");
-}
-.caro .image-three {
-    background-image: url("./images/travel3.jpg");
-}
-@keyframes sliding {
-    30% {
-        transform: translateX(0);
-   }
-    35% {
-        transform: translateX(-400px);
-   }
-    65% {
-        transform: translateX(-400px);
-   }
-    70% {
-        transform: translateX(-800px);
-   }
-    98% {
-        transform: translateX(-800px);
-   }
-    100% {
-        transform: translateX(0);
-   }
-}
-@media screen and (max-width: 768px) {
-    .carousel-travel {
-        width: 312px;
-        height: 210px;
-   }
-    .carousel-contain {
-        width: 240px;
-        height: 150px;
-   }
-    .caro {
-        width: 720px;
-   }
-    .caro > div {
-        width: 240px;
-        height: 150px;
-   }
-    @keyframes sliding {
-        30% {
-            transform: translateX(0);
-       }
-        35% {
-            transform: translateX(-240px);
-       }
-        65% {
-            transform: translateX(-240px);
-       }
-        70% {
-            transform: translateX(-480px);
-       }
-        98% {
-            transform: translateX(-480px);
-       }
-        100% {
-            transform: translateX(0);
-       }
-   }
-}
 
 .auto-spare-parts{
     text-align: center;
-    margin: 10vh 0;
+    margin:0;
     color: #085c5c;
     background-color: rgb(210 234 234);
-    text-shadow: 4px 2px 4px #ffffff;
 
 }
 .auto-spare-parts>h1{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 3.2em;
     letter-spacing: 1px;
     padding: 10vh 0 0 0;
@@ -258,9 +170,49 @@
     line-height: 30px;
     font-weight: 100;
     color: #3f3f3f;
-    padding: 2vh;
+    padding: 2vh 8vw;
+    opacity: 0.8;
+}
+.ap-banner>img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50% ;
+
+}
+.clients{
+    text-align: center;
+}
+.clients>h1{
+    font-weight: 400;
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin: 5vh 0 ;
+
+}
+.testimonial{
+    background: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 10vh 0;
+    padding: 10vh 0;
 }
 
+/*  */
+.test-card{
+    margin: 5vw 3vw;
+    width: 25vw;
+    height: 20vw;
+    background: white;
+}
+.test-card p{
+    font-size: 14px;
+}
+.right{
+    position: relative;
+    top: -20px;
+}
+/*  */
 .foot {
     text-align: center;
 }
