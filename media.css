@@ -140,8 +140,11 @@
         margin: 3vh 0;
     
     }
+    .logo p{
+        font-size: 10px;
+    }
     .logo>img {
-        width: 75px;
+        width: 25px;
     }
     .heading hr{
     
@@ -250,8 +253,8 @@
     }
     .test-card{
         width: 85vw;
-        height: 45vh;
-        margin: 2vh 0;
+        height: 55vh;
+        margin: 10vh 0;
     }
     .test-card p{
         padding: 4vw;
