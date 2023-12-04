@@ -8,8 +8,14 @@
     }
     
     .aboutus p{
-        margin: 1vh 10vw;
+        margin: 1vh 0;
     
+    }
+    .inner-t{
+        margin: 4vh 2vh;
+    }
+    .abt-sec{
+        margin: 0;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -63,8 +69,22 @@
         margin: 1vh 4vw;
         line-height: 1.6em;
     }
+    .abt-sec section{
+        margin: 1vh;
+    }
+    .abt-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .abt-sec h3{
+        font-size: 14px;  
+    }
+    .abt-sec p{
+        margin: 0%; 
+        padding: 0%;
+    }
     .inner-t{
-        margin: 4vh;
+        margin: 4vh 0;
     }
     .services>h1{
         font-weight: 400;
@@ -139,8 +159,22 @@
         margin: 1vh 4vw;
         line-height: 1.4em;
     }
+    .abt-sec section{
+        margin: 1vh;
+    }
+    .abt-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .abt-sec h3{
+        font-size: 14px;  
+    }
+    .abt-sec p{
+        margin: 0%; 
+        padding: 0%;
+    }
     .inner-t{
-        margin: 4vh;
+        margin: 4vh 0;
     }
     .services{
         margin: 5vh 3vw;
@@ -197,6 +231,30 @@
         font-size: 10px;
         line-height: 1.8em;
         margin-bottom: 2vh;
+    }
+    .clients>h1{
+        font-weight: 400;
+        font-size: 1.6em;
+        letter-spacing: 1px;
+    }
+    .testimonial{
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+
+        padding: 4vh 0;
+
+        
+    }
+    .test-card{
+        width: 85vw;
+        height: 45vh;
+        margin: 2vh 0;
+    }
+    .test-card p{
+        padding: 4vw;
     }
     .foot p{
         font-size: 10px;
