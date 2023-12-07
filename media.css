@@ -228,7 +228,7 @@
         width: 25px;
     }
     .t-sec{
-        height: 10vh;
+        height: 20vh;
     }
     .aboutus h1{
         font-weight: 400;
@@ -236,6 +236,7 @@
     }
     
     .aboutus p{
+        letter-spacing: 0.6px;
         font-size:1em ;
         margin: 1vh 4vw;
         line-height: 1.4em;
@@ -267,6 +268,7 @@
         letter-spacing: 1px;
     }
     .services>p{
+        letter-spacing: 0.6px;
         font-size:1em ;
         margin: 1vh 1vw;
         line-height: 1.5em;
@@ -294,7 +296,7 @@
         height: 20vh;
     }
     .banner-2>h1{
-        font-size: 22px;
+        font-size: 20px;
     }
     .travel>h1{
         font-size: 1.2em;
@@ -326,22 +328,23 @@
         flex-direction: column;
         align-items: center;
         margin: 0;
-
+        margin-bottom: 5vh;
         padding: 4vh 0;
 
         
     }
     .test-card{
         width: 85vw;
-        height: 35vh;
+        height: 50vh;
         margin: 8vh 0;
     }
     .test-card p{
         padding: 4vw;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 12px;
     }
     .foot p{
         font-size: 14px;
     }
+}
 }
