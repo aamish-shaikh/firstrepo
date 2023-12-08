@@ -208,10 +208,14 @@
 }
 .test-card p{
     font-size: 14px;
+    padding: 2vh;
 }
 .right{
     position: relative;
     top: -20px;
+}
+.test-card>img{
+    border-radius: 50%;
 }
 /*  */
 .foot {
