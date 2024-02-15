@@ -225,7 +225,7 @@
         font-size: 14px;
     }
     .logo>img {
-        width: 50px;
+        width: 25px;
     }
     .t-sec{
         height: 20vh;
@@ -285,9 +285,6 @@
         padding:4vh 0 ;
         font-weight: 300;
     }
-    .service-card i{
-        font-size: 30px;
-    }
     .cards-sec{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -310,15 +307,25 @@
         font-size: 14px;
         line-height: 1.6em;
     }
-    .auto-spare-parts>h1{
+    .auto-spare-parts h1{
         padding: 4vh 0 0 0;
         font-weight: 400;
         font-size:1.2em;
     }
-    .auto-spare-parts>p{
+    .auto-spare-parts p{
         font-size: 14px;
         line-height: 1.8em;
         margin-bottom: 2vh;
+    }
+    .ap-img{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin: 0;
+        justify-items: center;
+        width: 100%;
+    }
+    .ap-img img{
+        width: 30vw;
     }
     .clients>h1{
         font-weight: 400;
@@ -338,7 +345,7 @@
     }
     .test-card{
         width: 85vw;
-        height: 52vh;
+        height: 50vh;
         margin: 8vh 0;
     }
     .test-card p{
@@ -349,5 +356,4 @@
     .foot p{
         font-size: 14px;
     }
-}
 }
