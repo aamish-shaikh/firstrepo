@@ -333,7 +333,6 @@
         letter-spacing: 1px;
     }
     .testimonial{
-        background-color: #F2F2F2;
         display: flex;
         flex-direction: column;
         align-items: center;
