@@ -246,6 +246,7 @@ background-color: #d3e8ff;
 /*  */
 .foot {
     text-align: center;
+    padding-top: 5vh;
 }
 .foot p{
     font-family: sans-serif;
