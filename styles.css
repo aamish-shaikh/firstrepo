@@ -208,6 +208,7 @@
 }
 .clients{
     text-align: center;
+    background-color: aliceblue;
 }
 .clients>h1{
     font-weight: 400;
