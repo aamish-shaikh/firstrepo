@@ -166,37 +166,44 @@
 
 
 .auto-spare-parts{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin:0;
-    color: #085c5c;
-    background-color: rgb(210 234 234);
+    color: #125297;
 
 }
-.auto-spare-parts>h1{
+.ap-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    margin: 0 10%;
+}
+.ap-img img{
+    width: 12vw;
+}
+.auto-spare-parts h1{
     font-weight: 600;
     font-size: 3.2em;
     letter-spacing: 1px;
     padding: 10vh 0 0 0;
 }
-.auto-spare-parts>img{
-    width: 100vw;
-}
-.auto-spare-parts>p{
+.auto-spare-parts p{
     margin-bottom: 10vh;
     font-family: sans-serif;
     letter-spacing: 1px;
     font-size: 1.08em;
     line-height: 30px;
     font-weight: 100;
-    color: #3f3f3f;
-    padding: 2vh 8vw;
+    padding: 2vh 3vw;
     opacity: 0.8;
 }
 .ap-banner>img{
     width: 20vw;
     height: 20vw;
     border-radius: 50% ;
-
 }
 .clients{
     text-align: center;
