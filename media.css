@@ -285,6 +285,9 @@
         padding:4vh 0 ;
         font-weight: 300;
     }
+    .service-card i{
+        font-size: 30px;
+    }
     .cards-sec{
     display: grid;
     grid-template-columns: 50% 50%;
